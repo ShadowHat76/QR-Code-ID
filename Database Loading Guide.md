@@ -11,8 +11,10 @@ This is a mini guide to remind myself how to convert from xlsx to a database
     >USE <database_Name>;
     >CREATE TABLE <table_Name>(<field_Name> <Data_Type>(<Data_Length>));
 
-# Example: CREATE myDB
-# Example: CREATE TABLE Users(ID int, Name varchar(100), Email varchar(100));
+Example: 
+>CREATE myDB
+Example: 
+>CREATE TABLE Users(ID int, Name varchar(100), Email varchar(100));
 
 4. Copy the CSV file into the Secure File Directory; Identify this directory by running
     >SHOW VARIABLES LIKE "secure_file_priv";
