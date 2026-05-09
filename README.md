@@ -3,6 +3,9 @@
 # Use at your own risk.
 
 This project was made using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.9.
+This project DID NOT USE GENERATIVE AI AT ANY STAGE.
+NOT PLANNING.
+NOT CODING.
 
 ## Development server
 
