@@ -1,0 +1,11 @@
+<!-- For camera | Note Here that the exported config variable is imported here] -->
+<!-- Contrary to common-sense "config" is actually the variable here not [config]-->
+<div id="parentcontainer">
+    <ngx-scanner-qrcode id="scannerbox" #action="scanner" [config]="config" (event)="onEvent($event, action)"></ngx-scanner-qrcode>
+
+    <!-- start -->
+    <button (click)="action.isStart ? action.stop() : action.start();">
+        {{action.isStart ? 'Stop' : 'Start'}}
+    </button>
+    <div id="notif"></div>
+</div>

@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(69, 92, 92);
+}
+
+#parentcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#scannerbox {
+  margin-top: 0%;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-bottom: 1%;
+}
+
+
+#notif {
+  margin: auto;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #6eb1ff;
+}
+
+h2 {
+  color: #89baff;
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}
+
+button {
+  margin: auto;
+  background: #4a8cff;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #2c79ff;
+}
