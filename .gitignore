@@ -45,7 +45,6 @@ __screenshots__/
 #Custom Miscellaneous
 .env
 server.crt
-server.js
 server.key
 
 # System files
