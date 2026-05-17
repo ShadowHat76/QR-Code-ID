@@ -1,4 +1,4 @@
 
 export const environment = {
-    backend: "http://192.168.241.182:3333/?"
+    backend: "http://127.0.0.1:3333/?"
 };
